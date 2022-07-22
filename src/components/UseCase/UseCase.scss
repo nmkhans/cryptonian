@@ -1,0 +1,99 @@
+.UseCase {
+    background: #0A0D15;
+    padding: 100px 0;
+}
+
+.usecase__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usecase__text {
+    .usecase__title {
+        h2 {
+            color: #fff;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .usecase__shorting {
+        margin-bottom: 20px;
+
+        ul {
+            li {
+                display: inline-block;
+
+                &:first-child {
+                    button {
+                        color: #B5FED9;
+                        font-weight: 500;
+                        position: relative;
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            bottom: -20%;
+                            left: 2%;
+                            width: 45%;
+                            height: 3px;
+                            background: #B5FED9;
+                        }
+                    }
+                }
+
+                button {
+                    display: inline-block;
+                    outline: none;
+                    background: none;
+                    border: none;
+                    color: rgba(255, 255, 255, .5);
+                    font-size: 16px;
+                    font-weight: 300;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+
+    .usecase__description {
+        margin-bottom: 30px;
+
+        p {
+            color: #fff;
+            width: 450px;
+        }
+    }
+
+    .usecase__action {
+        display: flex;
+        align-items: center;
+
+        button {
+            display: inline-block;
+            text-align: center;
+            border: none;
+            outline: none;
+            height: 60px;
+            width: 60px;
+            line-height: 70px;
+            margin-right: 20px;
+            border-radius: 50%;
+            background: linear-gradient(180deg, #B5FED9 0%, #00ADEE 100%);
+            cursor: pointer;
+             
+            img {
+                width: 15px;
+            }
+        }
+
+        p {
+            color: #fff;
+        }
+    }
+}
+
+.usecase__feature {
+    flex-basis: 50%;
+}
