@@ -1,6 +1,10 @@
+@import '../../global';
+
 .UseCase {
     background: #0A0D15;
     padding: 100px 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .usecase__content {
@@ -52,6 +56,7 @@
                     font-size: 16px;
                     font-weight: 300;
                     margin-right: 20px;
+                    cursor: pointer;
                 }
             }
         }
@@ -96,4 +101,16 @@
 
 .usecase__feature {
     flex-basis: 50%;
+}
+
+.usereq {
+    @include req;
+    bottom: -90%;
+    right: -15%;
+}
+
+.usecircle {
+    @include circle;
+    top: -60%;
+    left: -15%;
 }

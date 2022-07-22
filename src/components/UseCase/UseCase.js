@@ -6,6 +6,8 @@ import useCase from '../../assets/usecase.png';
 const UseCase = () => {
     return (
         <div className="UseCase">
+            <div className="usereq"></div>
+            <div className="usecircle"></div>
             <div className="inner__usecase container">
                 <div className="usecase__content">
                     <div className="usecase__text">
