@@ -15,7 +15,7 @@ const Header = () => {
                                 <LinkTo to="/">Home</LinkTo>
                             </li>
                             <li>
-                                <LinkTo to="/">Docs</LinkTo>
+                                <LinkTo to="/docs">Docs</LinkTo>
                             </li>
                         </ul>
                     </div>
@@ -27,10 +27,10 @@ const Header = () => {
                     <div className="header__menu">
                         <ul>
                             <li>
-                                <LinkTo to="/">white paper</LinkTo>
+                                <LinkTo to="/white-paper">white paper</LinkTo>
                             </li>
                             <li>
-                                <LinkTo to="/">light paper</LinkTo>
+                                <LinkTo to="/black-paper">light paper</LinkTo>
                             </li>
                         </ul>
                     </div>

@@ -1,8 +1,73 @@
 .Banner {
-    background: #161A2B;
-    padding: 100px 0;
+    background: #21202e;
+    padding: 120px 0;
     background-image: url('../../assets/banner-bg.png');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: right center;
+    background-size: contain;
+    background-position: center right;
+}
+
+.banner__content {
+    position: relative;
+    width: 600px;
+    margin-top: 50px;
+
+    h2 {
+        color: #fff;
+        font-size: 40px;
+        margin-bottom: 30px;
+
+        span {
+            background-image: linear-gradient(98.54deg, #B5FED9 -0.29%, #00ADEE 66.03%);
+            background-size: 100%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+        }
+    }
+
+    button {
+        display: inline-block;
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+        color: #fff;
+        background: #00ADEE;
+        font-size: 16px;
+        font-weight: 600;
+        height: 45px;
+        width: 200px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        box-shadow: rgba(0, 173, 238, .4) 0px 4px 12px;
+    }
+
+    .banner__social {
+        position: absolute;
+        bottom: -20%;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .social__text {
+            color: #fff;
+            margin-right: 15px;
+        }
+
+        .social__icon {
+            span {
+                display: inline-block;
+                padding: 0 5px;
+                cursor: pointer;
+
+                img {
+                    width: 30px;
+                }
+            }
+        }
+    }
 }
