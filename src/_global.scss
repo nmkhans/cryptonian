@@ -1,0 +1,21 @@
+// Colors
+$primary-color: #00ADEE;
+
+// mixins
+@mixin req {
+    height: 500px;
+    width: 500px;
+    background: $primary-color;
+    opacity: 0.5;
+    filter: blur(400px);
+    position: absolute;
+}
+
+@mixin circle {
+    height: 500px;
+    width: 500px;
+    background: #B5FED9;
+    opacity: 0.15;
+    filter: blur(350px);
+    position: absolute;
+}

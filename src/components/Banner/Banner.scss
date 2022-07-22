@@ -1,3 +1,5 @@
+@import '../../global';
+
 .Banner {
     background: #21202e;
     padding: 120px 0;
@@ -6,25 +8,16 @@
     background-size: contain;
     background-position: center right;
     position: relative;
+    overflow: hidden;
 
     .req {
-        height: 500px;
-        width: 500px;
-        background: #00ADEE;
-        opacity: 0.5;
-        filter: blur(400px);
-        position: absolute;
+        @include req;
         top: -65%;
         left: -20%;
     }
 
     .circle {
-        height: 500px;
-        width: 500px;
-        background: #B5FED9;
-        opacity: 0.15;
-        filter: blur(350px);
-        position: absolute;
+        @include circle;
         bottom: -50%;
         left: -15%;
     }
@@ -41,7 +34,7 @@
         margin-bottom: 30px;
 
         span {
-            background-image: linear-gradient(98.54deg, #B5FED9 -0.29%, #00ADEE 66.03%);
+            background-image: linear-gradient(98.54deg, #B5FED9 -0.29%, $primary-color 66.03%);
             background-size: 100%;
             background-clip: text;
             -webkit-background-clip: text;
@@ -57,7 +50,7 @@
         outline: none;
         text-transform: uppercase;
         color: #fff;
-        background: #00ADEE;
+        background: $primary-color;
         font-size: 16px;
         font-weight: 600;
         height: 45px;
