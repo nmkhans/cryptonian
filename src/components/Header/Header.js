@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.scss';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
+import LinkTo from './../LinkTo/LinkTo';
 
 const Header = () => {
     return (
@@ -11,10 +12,10 @@ const Header = () => {
                     <div className="header__menu">
                         <ul>
                             <li>
-                                <Link to="/">Home</Link>
+                                <LinkTo to="/">Home</LinkTo>
                             </li>
                             <li>
-                                <Link to="/">Docs</Link>
+                                <LinkTo to="/">Docs</LinkTo>
                             </li>
                         </ul>
                     </div>
@@ -26,10 +27,10 @@ const Header = () => {
                     <div className="header__menu">
                         <ul>
                             <li>
-                                <Link to="/">white paper</Link>
+                                <LinkTo to="/">white paper</LinkTo>
                             </li>
                             <li>
-                                <Link to="/">light paper</Link>
+                                <LinkTo to="/">light paper</LinkTo>
                             </li>
                         </ul>
                     </div>
