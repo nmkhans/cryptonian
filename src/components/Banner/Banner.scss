@@ -5,6 +5,29 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center right;
+    position: relative;
+
+    .req {
+        height: 500px;
+        width: 500px;
+        background: #00ADEE;
+        opacity: 0.5;
+        filter: blur(400px);
+        position: absolute;
+        top: -65%;
+        left: -20%;
+    }
+
+    .circle {
+        height: 500px;
+        width: 500px;
+        background: #B5FED9;
+        opacity: 0.15;
+        filter: blur(350px);
+        position: absolute;
+        bottom: -50%;
+        left: -15%;
+    }
 }
 
 .banner__content {

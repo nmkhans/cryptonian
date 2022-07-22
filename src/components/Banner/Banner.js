@@ -9,6 +9,8 @@ import youtube from '../../assets/youtube.png';
 const Banner = () => {
     return (
         <div className="Banner">
+            <div className="req"></div>
+            <div className="circle"></div>
             <div className="inner__banner container">
                 <div className="banner__content">
                     <h2><span>Lending and borrowing protocol</span> backed with NFT's and built on Cardano blockchain</h2>
