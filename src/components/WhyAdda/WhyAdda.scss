@@ -1,6 +1,10 @@
+@import '../../global';
+
 .WhyAdda {
     background: #21202E;
     padding: 100px 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .whyadda__title {
@@ -65,4 +69,16 @@
             }
         }
     }
+}
+
+.whyadda__req {
+    @include req;
+    top: -80%;
+    right: -15%;
+}
+
+.whyadda__req__2 {
+    @include req;
+    bottom: -60%;
+    left: -20%;
 }

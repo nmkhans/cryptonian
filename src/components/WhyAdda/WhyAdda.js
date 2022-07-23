@@ -5,6 +5,8 @@ import img from '../../assets/whyadaa.png';
 const WhyAdda = () => {
     return (
         <div className="WhyAdda">
+            <div className="whyadda__req"></div>
+            <div className="whyadda__req__2"></div>
             <div className="inner__whyadda container">
                 <div className="whyadda__title">
                     <h2>Why Aada?</h2>
