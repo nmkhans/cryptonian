@@ -1,0 +1,68 @@
+.WhyAdda {
+    background: #21202E;
+    padding: 100px 0;
+}
+
+.whyadda__title {
+    h2 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+
+.whyadda__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+    .whyadda__feature {
+        img {
+            width: 300px;
+        }
+    }
+
+    .whyadda__text {
+        flex-basis: 465px;
+        color: #fff;
+
+        h3 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .whyadda__list {
+        ul {
+            list-style: none;
+
+            &:first-child {
+                h4 {
+                    color: #B5FED9;
+                    font-size: 20px;
+                    position: relative;
+                    margin-bottom: 20px;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        bottom: -10%;
+                        right: 0;
+                        height: 3px;
+                        width: 20%;
+                        background: #B5FED9;
+                    }
+                }
+            }
+
+            li {
+                width: 200px;
+                text-align: right;
+                color: rgba(255, 255, 255, .5);
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
