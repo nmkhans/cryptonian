@@ -29,6 +29,8 @@
 }
 
 .video__list {
+    flex-basis: 550px;
+
     .video__list__title {
         margin-bottom: 50px;
 
@@ -44,4 +46,16 @@
             }
         }
     }
+}
+
+.video__circle {
+    @include circle;
+    bottom: -10%;
+    right: -5%;
+}
+
+.video__req {
+    @include req;
+    top: -50%;
+    left: -18%;
 }
