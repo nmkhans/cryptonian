@@ -1,0 +1,47 @@
+@import '../../global';
+
+.AdaVideo {
+    background: #0A0D15;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.adavideo__title {
+    h2 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+
+.adavideo__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video__feature {
+    img {
+        width: 500px;
+    }
+}
+
+.video__list {
+    .video__list__title {
+        margin-bottom: 50px;
+
+        h5 {
+            color: #B5FED9;
+            text-transform: uppercase;
+            font-weight: 500;
+            text-align: right;
+
+            span {
+                display: inline-block;
+                width: 25px;
+            }
+        }
+    }
+}
