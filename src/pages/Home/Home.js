@@ -4,6 +4,7 @@ import Banner from './../../components/Banner/Banner';
 import UseCase from './../../components/UseCase/UseCase';
 import WhyAdda from '../../components/WhyAdda/WhyAdda';
 import AadaVideo from '../../components/AadaVideo/AadaVideo';
+import Divider from './../../components/Divider/Divider';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <UseCase />
             <WhyAdda />
             <AadaVideo />
+            <Divider />
         </div>
     );
 };
