@@ -30,6 +30,8 @@
 
 .video__list {
     flex-basis: 550px;
+    position: relative;
+    z-index: 1;
 
     .video__list__title {
         margin-bottom: 50px;
@@ -58,4 +60,9 @@
     @include req;
     top: -50%;
     left: -18%;
+}
+.video__req__2 {
+    @include req;
+    bottom: -60%;
+    left: -20%;
 }

@@ -9,8 +9,8 @@ const AadaVideo = () => {
     return (
         <div className="AdaVideo">
             <div className="video__circle"></div>
-            <div className="video__circle__2"></div>
             <div className="video__req"></div>
+            <div className="video__req__2"></div>
             <div className="inner__adavideo container">
                 <div className="adavideo__title">
                     <h2>Latest Aada videos</h2>
