@@ -7,6 +7,7 @@ import AadaVideo from '../../components/AadaVideo/AadaVideo';
 import Divider from './../../components/Divider/Divider';
 import AdaMedium from './../../components/AdaMedium/AdaMedium';
 import Partner from './../../components/Partner/Partner';
+import Footer from './../../components/Footer/Footer';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <Divider />
             <AdaMedium />
             <Partner />
+            <Footer />
         </div>
     );
 };

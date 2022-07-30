@@ -1,0 +1,25 @@
+.Footer {
+    background: #21202E;
+    padding: 15px 0;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer__icon {
+        span {
+            display: inline-block;
+            width: 25px;
+            margin: 0 10px;
+        }
+    }
+
+    .footer__copyright {
+        p {
+            color: #fff;
+        }
+    }
+}
