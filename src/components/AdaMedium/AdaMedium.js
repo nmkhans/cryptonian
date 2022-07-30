@@ -7,6 +7,8 @@ import blogImg from '../../assets/blog_1.png';
 const AdaMedium = () => {
     return (
         <div className="AdaMedium">
+            <div className="blog__circle"></div>
+            <div className="blog__req"></div>
             <div className="inner__adamedium container">
                 <div className="adamedium__title">
                     <h2>Aada Medium</h2>
