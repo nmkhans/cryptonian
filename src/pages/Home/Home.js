@@ -5,6 +5,7 @@ import UseCase from './../../components/UseCase/UseCase';
 import WhyAdda from '../../components/WhyAdda/WhyAdda';
 import AadaVideo from '../../components/AadaVideo/AadaVideo';
 import Divider from './../../components/Divider/Divider';
+import AdaMedium from './../../components/AdaMedium/AdaMedium';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <WhyAdda />
             <AadaVideo />
             <Divider />
+            <AdaMedium />
         </div>
     );
 };
