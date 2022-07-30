@@ -15,6 +15,8 @@ import partnerTen from '../../assets/partner_10.png';
 const Partner = () => {
     return (
         <div className="Partner">
+            <div className="partner__circle"></div>
+            <div className="partner__req"></div>
             <div className="inner__partner container">
                 <div className="partner__title">
                     <h2>Our partners</h2>

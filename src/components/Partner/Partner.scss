@@ -1,6 +1,10 @@
+@import '../../global';
+
 .Partner {
     background: #0A0D15;
     padding: 100px 0;
+    position: relative;
+    overflow: hidden;
 }
 
 .partner__title {
@@ -25,4 +29,16 @@
             margin: 0 70px;
         }
     }
+}
+
+.partner__circle {
+    @include circle;
+    top: -30%;
+    left: -10%;
+}
+
+.partner__req {
+    @include req;
+    top: 20%;
+    right: -32%;
 }
