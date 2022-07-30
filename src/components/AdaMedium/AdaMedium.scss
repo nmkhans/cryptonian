@@ -49,3 +49,9 @@
     top: -50%;
     right: -10%;
 }
+
+.blog__circle__2 {
+    @include circle;
+    bottom: -60%;
+    left: -10%;
+}
