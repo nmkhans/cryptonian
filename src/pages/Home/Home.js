@@ -6,6 +6,7 @@ import WhyAdda from '../../components/WhyAdda/WhyAdda';
 import AadaVideo from '../../components/AadaVideo/AadaVideo';
 import Divider from './../../components/Divider/Divider';
 import AdaMedium from './../../components/AdaMedium/AdaMedium';
+import Partner from './../../components/Partner/Partner';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <AadaVideo />
             <Divider />
             <AdaMedium />
+            <Partner />
         </div>
     );
 };

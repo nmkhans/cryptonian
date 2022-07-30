@@ -1,0 +1,28 @@
+.Partner {
+    background: #0A0D15;
+    padding: 100px 0;
+}
+
+.partner__title {
+    h2 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+
+.partner__content {
+    margin-top: 50px;
+
+    .part__top__marquee {
+        .partners {
+            margin: 0 70px;
+        }
+    }
+
+    .part__bottom__marquee {
+        .partners {
+            margin: 0 70px;
+        }
+    }
+}
